@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #1a1a1a, #333);
+    color: white;
+}
+
+.scanner-container {
+    margin-top: 50px;
+}
+
+.scan-box {
+    position: relative;
+    display: inline-block;
+    border: 3px solid #0f0;
+    width: 300px;
+    height: 250px;
+    overflow: hidden;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+}
+
+.scan-line {
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background: red;
+    animation: scanMove 2s infinite linear;
+}
+
+@keyframes scanMove {
+    0% { top: 0; }
+    100% { top: 100%; }
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background: #0f0;
+    border: none;
+    color: black;
+}
+
+.hidden {
+    display: none;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
