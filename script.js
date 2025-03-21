@@ -4,7 +4,7 @@ const resultDiv = document.getElementById('result');
 const loadingDiv = document.getElementById('loading');
 
 const funnyImages = [
-    'images/funny1.jpg', 'images/funny2.jpg'];
+    'C:\Users\swoya\Documents\Face detection\images/"funny1"'];
 
 navigator.mediaDevices.getUserMedia({ video: true })
     .then(stream => video.srcObject = stream)
