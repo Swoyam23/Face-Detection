@@ -4,10 +4,10 @@ const resultDiv = document.getElementById('result');
 const loadingDiv = document.getElementById('loading');
 
 const funnyImages = [
-    'images/funny1.jpg', 
-    'images/funny2.jpg', 
-    'images/funny3.jpg', 
-    'images/funny4.jpg'
+    'img/funny1.jpg', 
+    'img/funny2.jpg', 
+    'img/funny3.jpg', 
+    'img/funny4.jpg'
 ];
 
 navigator.mediaDevices.getUserMedia({ video: true })
