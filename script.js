@@ -4,7 +4,7 @@ const resultDiv = document.getElementById('result');
 const loadingDiv = document.getElementById('loading');
 
 const funnyImages = [
-    'image/funny1.jpg', 'image/funny2.jpg'];
+    'images/funny1.jpg', 'images/funny2.jpg'];
 
 navigator.mediaDevices.getUserMedia({ video: true })
     .then(stream => video.srcObject = stream)
