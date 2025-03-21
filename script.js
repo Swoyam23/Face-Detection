@@ -4,7 +4,7 @@ const resultDiv = document.getElementById('result');
 const loadingDiv = document.getElementById('loading');
 
 const funnyImages = [
-    'images/funny1.jpg''images/funny2.jpg
+    'srcset="funny1.jpg"
     '];
 
 navigator.mediaDevices.getUserMedia({ video: true })
